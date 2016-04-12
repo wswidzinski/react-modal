@@ -1,0 +1,15 @@
+.Navbar {
+  background-color: #0288d1;
+}
+
+.Navbar__Link {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.Navbar__Link:hover, .Navbar__Link:focus {
+  color: #29b6f6;
+  background-color: #fff;
+}

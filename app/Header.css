@@ -1,0 +1,14 @@
+.Header {
+  background-color: #29b6f6;
+}
+
+.Header__Icon {
+  background-image: url('./img/logo.png');
+  height: 200px;
+  width: 200px;
+}
+
+.Header__Title {
+  color: #fff;
+  font-size: 1.3em;
+}

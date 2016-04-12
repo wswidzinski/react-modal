@@ -1,0 +1,10 @@
+.ExampleContainer {
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.ExampleContainer__Button {
+  background-color: #fff;
+  border: none;
+  width: 48px;
+}

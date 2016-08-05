@@ -1915,13 +1915,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	function hide(appElement) {
-	  validateElement(appElement);
-	  (appElement || _element).setAttribute('aria-hidden', 'true');
+	  if (appElement || _element) (appElement || _element).setAttribute('aria-hidden', 'true');
 	}
 
 	function show(appElement) {
-	  validateElement(appElement);
-	  (appElement || _element).removeAttribute('aria-hidden');
+	  if (appElement || _element) (appElement || _element).removeAttribute('aria-hidden');
 	}
 
 	function toggle(shouldHide, appElement) {
@@ -1929,7 +1927,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	function validateElement(appElement) {
-	  if (!appElement && !_element) console.warn('react-modal: You must set an element with `Modal.setAppElement(el)` to make this accessible');
+	  !appElement && !_element;
 	}
 
 	function resetForTesting() {

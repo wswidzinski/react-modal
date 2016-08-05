@@ -1929,7 +1929,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	function validateElement(appElement) {
-	  if (!appElement && !_element) throw new Error('react-modal: You must set an element with `Modal.setAppElement(el)` to make this accessible');
+	  if (!appElement && !_element) console.warn('react-modal: You must set an element with `Modal.setAppElement(el)` to make this accessible');
 	}
 
 	function resetForTesting() {
